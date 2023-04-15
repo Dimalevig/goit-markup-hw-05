@@ -125,6 +125,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .display-list {
   display: flex;
@@ -132,10 +133,6 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.33;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 .contact {
@@ -144,6 +141,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: inherit;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact:hover,
 .contact:focus {
@@ -211,6 +209,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-btn:hover,
@@ -460,6 +459,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-icon {
@@ -484,6 +484,7 @@ body {
 
 .client {
   fill: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-list-link {
@@ -495,6 +496,7 @@ body {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  
 }
 
 .client-list-link:focus,
@@ -546,6 +548,7 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-icon {
