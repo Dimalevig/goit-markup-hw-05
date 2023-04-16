@@ -29,7 +29,7 @@
         <nav>
           <ul class="menu">
             <li class="nav-menu list">
-              <a class="nav-link link" href="./index.html"
+              <a class="nav-link accent-line link" href="./index.html"
                 ><span class="accent">Студія</span></a
               >
             </li>
@@ -59,7 +59,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="model-btn" type="button">Замовити послугу</button>
+          <button class="model-btn"  type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="sub-hero">
@@ -121,12 +121,15 @@
           <ul class="list employment-horizontal-block">
             <li class="employment-horizontal-item">
               <img src="./images/box1.jpg" alt="box1" />
+              <p class="employment-title">Десктопні додатки</p>
             </li>
             <li class="employment-horizontal-item">
               <img src="./images/box2.jpg" alt="box2" />
+              <p class="employment-title">Мобільні додатки</p>
             </li>
             <li class="employment-horizontal-item">
               <img src="./images/box3.jpg" alt="box3" />
+              <p class="employment-title">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -421,6 +424,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-modal-btn" data-modal-close>
+          <svg class="modal-close-icon" width="18px" height="18px">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
