@@ -710,6 +710,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 528px;
   height: 581px;
 
@@ -757,6 +758,6 @@ body {
 
 }
 
-.box:hover .overlay {
+.galery-card-item:hover .overlay {
   transform: translateX(0);
 }
