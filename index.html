@@ -431,6 +431,31 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+
+        <form class="contact-form">
+          <strong>Залиште свої дані, ми вам передзвонимо</strong>
+          <label class="contact-form-field">
+            Ім'я
+            <input name="user-name" class="contact-form-input" type="text" required>
+          </label>
+          <label class="contact-form-field">
+            Телефон
+            <input name="user-phone" class="contact-form-input" type="tel" required>
+          </label>
+          <label class="contact-form-field">
+            Пошта
+            <input name="user-email" class="contact-form-input" type="email" required>
+          </label>
+          <label>
+            Коментар
+            <textarea name="use-message" class="contact-form-massage" placeholder="Введіть текст"></textarea>
+          </label>
+          <div class="contact-form-checkbox-wrapper">
+            <input  name="accept-policy" class="contact-form-checkbox" type="checkbox" required>
+            <label class="checkbox-label" for="">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
+            <button class="submit-btn" type="submit">Відправити</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
